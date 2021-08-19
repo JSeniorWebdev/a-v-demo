@@ -1,0 +1,27 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+	background: #141E30;
+	background: linear-gradient(to top, #243B55, #141E30);
+	font-family: 'Roboto';
+	font-weight: 300;
+    font-size: 14px;
+}
+
+body {
+	/* height: 100%; */
+}
+
+#webrtc-demo-container {
+	height: 100%;
+	width: 100%;
+}
+
+#webrtc-demo-media-query-detector {
+	position: relative;
+	z-index: -1000;
+	bottom: 0;
+	left: 0;
+	height: 1px;
+	width: 1px;
+}

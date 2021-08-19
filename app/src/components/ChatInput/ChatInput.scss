@@ -1,0 +1,24 @@
+.chat-input {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  textarea {
+    height: 100%;
+    width: 100%;
+    padding: 4px 8px;
+    resize: none;
+    outline: none;
+    background-color: rgba(#243b55, 1);
+    color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    border: none;
+
+    &:disabled {
+      opacity: 0.65;
+    }
+  }
+}
